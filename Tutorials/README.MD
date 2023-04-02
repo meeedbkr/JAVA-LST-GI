@@ -115,7 +115,6 @@ In Java, an exception is an event that occurs during the execution of a program 
 
 Java has a built-in mechanism for handling exceptions using the try-catch-finally block. The basic structure of a try-catch block is as follows:
 
-csharpCopy code
 
 ```java
 try {     // code that may throw an exception } 
@@ -128,7 +127,6 @@ In the above code, the `try` block contains the code that may throw an exception
 
 Exceptions can also be thrown explicitly using the `throw` keyword. For example:
 
-arduinoCopy code
 
 ```java
 if (x < 0) {     
