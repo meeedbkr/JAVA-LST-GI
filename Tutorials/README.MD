@@ -19,9 +19,10 @@ In Java, variables are used to store data values. A variable is defined by a dat
 
 Here's an example of how to declare and initialize a variable in Java:
 
-javaCopy code
 
-`int myNumber = 42;`
+```java
+int myNumber = 42;
+```
 
 In this example, we declare a variable called `myNumber` of type `int` and initialize it with the value `42`. Note that the semicolon at the end of the statement is required in Java.
 
@@ -38,9 +39,10 @@ Control flow statements allow you to control the order in which statements are e
 
 Here's an example of how to use a for loop in Java:
 
-javaCopy code
 
-`for (int i = 0; i < 10; i++) {     System.out.println("The value of i is: " + i); }`
+```java
+for (int i = 0; i < 10; i++) {     System.out.println("The value of i is: " + i); }
+```
 
 In this example, we use a for loop to print out the value of `i` 10 times.
 
@@ -56,9 +58,18 @@ Object-oriented programming (OOP) is a programming paradigm that uses objects â€
 
 Here's an example of how to define a class in Java:
 
-javaCopy code
+```java
+public class Person {
+    private String name;     
+    private int age; 
 
-`public class Person {     private String name;     private int age;          public Person(String name, int age) {         this.name = name;         this.age = age;     }          public void sayHello() {         System.out.println("Hello, my name is " + name + " and I am " + age + " years old.");     } }`
+public Person(String name, int age) {         
+	this.name = name;         
+	this.age = age;     }  
+
+public void sayHello() {         
+	System.out.println("Hello, my name is " + name + " and I am " + age + " years old.");     }}
+```
 
 In this example, we define
 
@@ -68,9 +79,14 @@ The `sayHello` method simply prints out a message that includes the `name` and `
 
 Here's an example of how to use this `Person` class:
 
-javaCopy code
-
-`public static void main(String[] args) {     Person person1 = new Person("Alice", 25);     Person person2 = new Person("Bob", 30);          person1.sayHello(); // prints "Hello, my name is Alice and I am 25 years old."     person2.sayHello(); // prints "Hello, my name is Bob and I am 30 years old." }`
+```java
+public static void main(String[] args) {     
+Person person1 = new Person("Alice", 25);     
+Person person2 = new Person("Bob", 30);          
+person1.sayHello(); // prints "Hello, my name is Alice and I am 25 years old."     
+person2.sayHello(); // prints "Hello, my name is Bob and I am 30 years old." 
+}
+```
 
 In this example, we create two `Person` objects (`person1` and `person2`) using the constructor with different arguments. We then call the `sayHello` method on each of the `Person` objects to print out their information.
 
@@ -81,17 +97,17 @@ This is just a basic example of object-oriented programming in Java. There is a 
 
 The Collections Framework is a set of classes and interfaces that provide a way to store and manipulate groups of objects in Java. The framework includes the following interfaces:
 
-*   Collection: The root interface in the collection hierarchy. It defines the basic methods that all collection types must have, such as adding, removing, and querying elements.
-*   List: An ordered collection that allows duplicates. Elements can be accessed by their index.
-*   Set: An unordered collection that does not allow duplicates. Elements can be accessed using their values.
-*   Map: A collection that maps keys to values, where each key is unique.
+*   **Collection:** The root interface in the collection hierarchy. It defines the basic methods that all collection types must have, such as adding, removing, and querying elements.
+*   **List:** An ordered collection that allows duplicates. Elements can be accessed by their index.
+*   **Set:** An unordered collection that does not allow duplicates. Elements can be accessed using their values.
+*   **Map:** A collection that maps keys to values, where each key is unique.
 
 Some common classes in the Collections Framework include:
 
-*   ArrayList: An implementation of the List interface using an array.
-*   LinkedList: An implementation of the List interface using a doubly-linked list.
-*   HashSet: An implementation of the Set interface using a hash table.
-*   HashMap: An implementation of the Map interface using a hash table.
+*   **ArrayList:** An implementation of the List interface using an array.
+*   **LinkedList:** An implementation of the List interface using a doubly-linked list.
+*   **HashSet:** An implementation of the Set interface using a hash table.
+*   **HashMap:** An implementation of the Map interface using a hash table.
 
 ### 5\. Exception Handling
 
@@ -101,7 +117,12 @@ Java has a built-in mechanism for handling exceptions using the try-catch-finall
 
 csharpCopy code
 
-`try {     // code that may throw an exception } catch (ExceptionType e) {     // code to handle the exception } finally {     // code that will always be executed, regardless of whether an exception was thrown }`
+```java
+try {     // code that may throw an exception } 
+catch (ExceptionType e) {     // code to handle the exception } 
+finally {     // code that will always be executed, regardless of whether an exception was thrown 
+}
+```
 
 In the above code, the `try` block contains the code that may throw an exception. If an exception is thrown, the `catch` block will handle it. The `finally` block contains code that will always be executed, regardless of whether an exception was thrown.
 
@@ -109,7 +130,10 @@ Exceptions can also be thrown explicitly using the `throw` keyword. For example:
 
 arduinoCopy code
 
-`if (x < 0) {     throw new IllegalArgumentException("x must be positive"); }`
+```java
+if (x < 0) {     
+	throw new IllegalArgumentException("x must be positive"); }
+```
 
 This code will throw an `IllegalArgumentException` if `x` is negative.
 
