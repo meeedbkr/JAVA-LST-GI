@@ -8,6 +8,7 @@ Welcome to my Java exercises, tutorials, and practical sessions repository! This
 - [Exercises](#exercises)
 - [Tutorials](#tutorials)
 - [Practical Sessions](#practical-sessions)
+- [Files Structure](#Files Structure)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
@@ -28,6 +29,56 @@ The tutorials provide detailed explanations and examples of Java concepts, makin
 
 The practical sessions include real-world Java projects, such as building a web application, implementing a database system, and creating a graphical user interface. These projects provide students with hands-on experience working with Java programming tools and techniques.
 
+
+## Files Structure
+
+`
+.
+├── Exercises
+│   ├── Basic Java Concepts
+│   │   ├── Exercise1.java
+│   │   ├── Exercise2.java
+│   │   ├── Exercise3.java
+│   │   └── README.md
+│   ├── Object-Oriented Programming
+│   │   ├── Person.java
+│   │   ├── Rectangle.java
+│   │   ├── BankAccount.java
+│   │   └── README.md
+│   ├── Data Structures and Algorithms
+│   │   ├── SumOfArray.java
+│   │   ├── MaxMinArray.java
+│   │   ├── BinarySearch.java
+│   │   └── README.md
+│   └── Software Design Patterns
+│       ├── SingletonPattern.java
+│       ├── ObserverPattern.java
+│       ├── StrategyPattern.java
+│       └── README.md
+├── Tutorials
+│   ├── VariablesAndDataTypes.md
+│   ├── ControlFlowStatements.md
+│   ├── Object-OrientedProgramming.md
+│   ├── CollectionsFramework.md
+│   └── ExceptionHandling.md
+└── Practical Sessions
+    ├── WebApplication
+    │   ├── index.html
+    │   ├── style.css
+    │   ├── script.js
+    │   ├── server.java
+    │   └── README.md
+    ├── DatabaseSystem
+    │   ├── schema.sql
+    │   ├── queries.sql
+    │   ├── JDBCExample.java
+    │   └── README.md
+    └── GUI
+        ├── Calculator.java
+        ├── TicTacToe.java
+        ├── SnakeGame.java
+        └── README.md
+`
 ## Usage
 
 To use this repository, simply clone or download the code and open it in your preferred Java development environment. Each folder contains a README file that provides instructions on how to run the exercises or projects.
