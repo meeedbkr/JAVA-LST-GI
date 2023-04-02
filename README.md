@@ -8,7 +8,7 @@ Welcome to my Java exercises, tutorials, and practical sessions repository! This
 - [Exercises](#exercises)
 - [Tutorials](#tutorials)
 - [Practical Sessions](#practical-sessions)
-- [Files Structure](#Files Structure)
+- [Files Structure](#Files-Structure)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
@@ -32,7 +32,7 @@ The practical sessions include real-world Java projects, such as building a web 
 
 ## Files Structure
 
-`
+```
 .
 ├── Exercises
 │   ├── Basic Java Concepts
@@ -78,7 +78,7 @@ The practical sessions include real-world Java projects, such as building a web 
         ├── TicTacToe.java
         ├── SnakeGame.java
         └── README.md
-`
+```
 ## Usage
 
 To use this repository, simply clone or download the code and open it in your preferred Java development environment. Each folder contains a README file that provides instructions on how to run the exercises or projects.
