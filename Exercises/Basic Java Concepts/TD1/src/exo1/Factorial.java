@@ -34,6 +34,8 @@ public class Factorial {
 		
 		// Display the result
 		System.out.println(number + "! = " + factorialResult);
+		scanner.close();
 	}
+	
 
 }
