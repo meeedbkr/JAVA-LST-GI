@@ -26,6 +26,8 @@ public class Surface {
 
         // Display the result
         System.out.println("The surface area of a circle with radius " + radius + " is " + surfaceArea);
+        
+        scanner.close();
     }
 
 }
