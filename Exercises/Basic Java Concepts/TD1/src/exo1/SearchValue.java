@@ -33,6 +33,8 @@ public class SearchValue {
         } else {
             System.out.println("The element " + element + " doesn't exist in the array.");
         }
+        
+        scanner.close();
     }
 
 }
