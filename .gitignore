@@ -1,0 +1,64 @@
+# Compiled class file
+*.class
+
+#pdfs
+.pdf
+
+# Log files
+*.log
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+*.png
+*.jpeg
+*.jpg
+# NetBeans IDE Files #
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# Eclipse IDE Files #
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+
+# IntelliJ IDEA Files #
+*.iml
+*.ipr
+*.iws
+.idea/
+out/
+
+# Java class files
+*.class
+
+# Compiled class files
+bin/
+
+# JAR files
+*.jar
+
+# IDE files
+/.idea/
+*.iml
+*.ipr
+*.iws
+*.classpath
+*.project
+*.settings/
+Projects/*
