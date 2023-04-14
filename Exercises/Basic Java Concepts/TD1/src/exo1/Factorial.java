@@ -4,26 +4,36 @@ import java.util.Scanner;
 
 public class Factorial {
 
-	public static long factorial(int n) {
-		long fact = 1;
-		for (int i = 1; i <= n; i++) {
-			fact *= i;
+	public static long calculateFactorial(int number) {
+		long factorial = 1;
+		
+		// Calculate factorial using a for loop
+		for (int i = 1; i <= number; i++) {
+			factorial *= i;
 		}
-		return fact;
+		
+		return factorial;
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-		Scanner sc = new Scanner(System.in);
-		long fact;
-		int n;
+		
+		// Create a Scanner object to read user input
+		Scanner scanner = new Scanner(System.in);
+		
+		long factorialResult;
+		int number;
+		
+		// Ask the user to enter a non-negative integer
 		do {
-			System.out.println("Entrer un nombre N >=0 ");
-			n = sc.nextInt();
-		} while (n < 0);
-		fact = factorial(n);
-		System.out.println(n+"! = "+fact);
+			System.out.println("Enter a non-negative integer: ");
+			number = scanner.nextInt();
+		} while (number < 0);
+		
+		// Calculate the factorial of the entered number
+		factorialResult = calculateFactorial(number);
+		
+		// Display the result
+		System.out.println(number + "! = " + factorialResult);
 	}
 
 }
